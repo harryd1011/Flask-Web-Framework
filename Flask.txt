@@ -1,0 +1,120 @@
+Flask: Web Framework in Python
+History of Flask
+Flask was created by Armin Ronacher of Pocoo, an international group of Python enthusiasts formed in 2004. According to Ronacher, the idea was originally an April Fool’s joke that was popular enough to make into a serious application. Flask consists of Werkzeug WSGI toolkit and Jinja2 template engine. Both were also developed by Pocco. It was initially released in April 2010.
+What is Flask?
+
+Flask is a backend framework that is used to build web applications. Flask is a web application framework written in python.
+It gives developers flexibility and is a more accessible framework for new developers since you can build a web application quickly using only a single python file. Flask is based on the Werkzeg WSGI toolkit and the Jinja2 template engine.
+Werkzeg
+Werkzerg
+Werkzeug is a utility library for the Python programming language, in other words, a toolkit for Web Server Gateway Interface (WSGI) applications, and is licensed under a BSD License. Werkzeug can realize software objects for request, response, and utility functions. It can be used to build a custom software framework on top of it and supports Python 2.7 and 3.5 and later.
+Jinja
+
+jinja2 is a popular template engine for Python. A web template system combines a template with a specific data source to render a dynamic web page.
+This allows you to pass Python variables into HTML templates like this:
+<html>
+<head>
+<title>{{ title }}</title>
+</head>
+<body>
+<h1>Hello {{ username }}</h1>
+</body>
+</html>
+Applications of Flask
+
+Flask can be used to create simple as well large-scale web applications for various needs. If you want some examples of web applications that can be created using Flask, here are some:
+Blog App
+Social Network Web App
+Weather App
+Portfolio Website
+Feedback Form
+Rest API App
+Deploying Machine Learning models using the Flask app
+Who uses Flask?
+Flask is used by various companies all over the world to run their website-based businesses over the Internet.
+
+If you’re looking for some examples of companies using Flask for their businesses, here is a list of some popular brands that you might be familiar with:
+Pinterest
+Twilio
+LinkedIn
+Uber
+Reddit
+Netflix
+Airbnb
+Red Hat
+PythonAnyWhere
+Patreon
+Samsung
+Lyft
+MIT
+Mozilla
+CRED
+Trivago
+Mailgun
+Hotjar
+Nginx
+Zalando
+Barogo
+Key features of Flask
+Flask can be used to create simple as well large-scale web applications for various needs. Since Flask is a lightweight framework, it doesn’t come up with all the features in the world. But still, Flask is good enough to be used for building big web application projects.
+Development server and debugger
+Integrated support for unit testing
+RESTful request dispatching
+Uses Jinja templating
+Support for secure cookies (client-side sessions)
+100% WSGI 1.0 compliant
+Unicode-based
+Extensive documentation
+Google App Engine compatibility
+Extensions available to enhance features desired
+Why is Flask a Good choice?
+Flask is very pythonic, unlike Django web-frame. We define flask as a micro-framework that is built using WSGI and Jinja 2 template engine.
+Major advantages of Flask are:
+1. Easy to set up and use.
+2. Freedom to build the structure of the web application.
+There is a misconception among tech enthusiasts that Flask is not good for building big projects. But that isn’t exactly true. Many businesses use Flask to build and maintain large-scale web applications.
+Flask Environment Setup
+To install a flask on the system, we need to have python 2.7 or higher installed on our system. However, we suggest using python 3 for the development in the flask.
+Install virtual environment (virtualenv)
+Virtualenv is considered the virtual python environment builder which is used to create the multiple python virtual environments side by side. It can be installed by using the following command.
+$ pip install virtualenv
+Once it is installed, we can create the new virtual environment into a folder as given below.
+$ mkdir new
+$ cd new
+$ virtualenv venv
+To activate the corresponding environment, use the following command on the Linux operating system.
+$ venv/bin/activate
+On windows, use the following command.
+$ venv\scripts\activate
+We can now install the flask by using the following command.
+$ pip install flask
+Create a small application in Flask?
+Unlike the Django framework, Flask is very Pythonic. It’s easy to get started with Flask because it doesn’t have a huge learning curve.
+On top of that, it’s very explicit, which increases readability. To create the “Hello World” app, you only need a few lines of code.
+This is a boilerplate code example.
+
+1st Flask Apllication
+If you want to develop on your local computer, you can do so easily. Save this program as server.py and run it with python server.py.
+$ python server.py
+* Serving Flask app “hello”
+* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+It then starts a web server that is available only on your computer. In a web browser open localhost on port 5000 (the URL) and you’ll see “Hello World” show up.
+To host and develop online, you can use PythonAnywhere.
+
+Example with Output
+Flask Tutorial: Hello World
+Welcome! In this tutorial, you will learn how to create your first Web App with Python Flask. If you prefer learning…
+pythonbasics.org
+
+In conclusion
+It’s a microframework, but that doesn’t mean your whole app should be inside one single Python file. You can and should use many files for larger programs, to handle complexity.
+Micro means that the Flask framework is simple but extensible. You may all the decisions: which database to use, do you want an ORM, etc, Flask doesn’t decide for you.
+Flask is one of the most popular web frameworks, meaning it’s up-to-date and modern. You can easily extend its functionality. You can scale it up for complex applications.
+Related courses:
+Create Web Apps with Python Flask
+Ready to make Web Apps with Flask? In this video course, I'll show you how to make web apps with Python Flask.
+pythoncourses.gumroad.com
+
+Flask URL Building - Javatpoint
+The url_for() function is used to build a URL to the specific function dynamically. The first argument is the name of…
+www.javatpoint.com
